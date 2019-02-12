@@ -1,0 +1,33 @@
+.wrapper {
+	max-width: 900px;
+	width: 95%;
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+.box {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 0;
+	flex-wrap: wrap;
+}
+
+.link {
+	text-decoration: none;
+	color: red;
+	font-size: 40px;
+	text-shadow: 3px 3px 0 blue;
+	font-weight: bold;
+	transition: 0.3s
+}
+
+h1 {
+	font-size: 60px;
+	color: darkorange;
+	text-shadow: 3px 3px 0 blueviolet;
+}
+
+.link:active {
+	transform: translate(1px, 1px);
+	text-shadow: 2px 2px 0 blue;
+}
